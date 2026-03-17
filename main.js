@@ -27,7 +27,7 @@ let bigNumber = 9007199254740991n;
 let huge = BigInt("12456789012345678901234567890");
 let isAlive = true;
 let isWorking = false;
-let isAdult = age => 18;
+let isAdult = (age) => 18;
 let x;
 let y = undefined;
 let userData = null;
@@ -35,25 +35,25 @@ let userData = null;
 let id = Symbol("id");
 
 let person = {
-    name: "Тимофей",
-    age: 21,
-    isStudent: false,
-    sayHello: function () {
-        console.log("Привет!");
-    },
+  name: "Тимофей",
+  age: 21,
+  isStudent: false,
+  sayHello: function () {
+    console.log("Привет!");
+  },
 };
-console.log(person.name)
+console.log(person.name);
 
-let fruits = ["яблоко", "банан", "груша"]
-let numbers = [1, 2, 3, 4, 5]
+let fruits = ["яблоко", "банан", "груша"];
+let numbers = [1, 2, 3, 4, 5];
 let mixed = ["Текст", 42, true, null];
 
-function sum(a,b) {
-    return a + b;
+function sum(a, b) {
+  return a + b;
 }
 
 let multiply = function (x, y) {
-    return x * y;
+  return x * y;
 };
 
 console.log(sum(5, 3));
@@ -102,7 +102,7 @@ let str3 = "" + num;
 
 let strNum = "123";
 let int = Number(strNum);
-let int2 = parseInt("42.5")
+let int2 = parseInt("42.5");
 let float = parseFloat("3.14");
 let int3 = +"99";
 
@@ -135,8 +135,11 @@ console.log(obj1 === obj2);
 let obj3 = obj1;
 console.log(obj1 === obj3);
 
-let arr1 = [1,2,3];
-let arr2 = [1,2,3];
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
 console.log(arr1 === arr2);
 
-
+// let x1 = 10;
+// let y1 = 2;
+// console.log(x1 + y1);
+// console.log(x1 - y1);
