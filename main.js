@@ -143,3 +143,9 @@ console.log(arr1 === arr2);
 // let y1 = 2;
 // console.log(x1 + y1);
 // console.log(x1 - y1);
+
+let a2 = 5;
+let b2 = 7;
+console.log(a2 + b2);
+console.log(a2 / b2);
+console.log(a2 * b2);
